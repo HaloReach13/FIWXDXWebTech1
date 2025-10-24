@@ -1,27 +1,84 @@
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIWXDX - Juhász Balázs FIWXDX_lista</title>
 </head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    ul.square {
+        list-style-type: square;
+    }
+
+    ol.uppercase {
+        list-style-type: upper-alpha;
+    }
+
+    ol.roman {
+        list-style-type: upper-roman;
+    }
+
+    .inline-style li {
+        font-weight: bold;
+    }
+
+    .inline-style li:nth-child(1) {
+        color: red;
+    }
+
+    .inline-style li:nth-child(2) {
+        color: red;
+    }
+
+    .inline-style li:nth-child(3) {
+        color: red;
+    }
+
+    .inline-style li:nth-child(4) {
+        color: red;
+    }
+
+    .description dt {
+        font-weight: bold;
+        color: blue;
+    }
+
+    .description dd {
+        margin-left: 20px;
+    }
+
+    .embedded h3 {
+        color: magenta;
+    }
+</style>
+
 <body>
     <h1>Lista készítése</h1>
 
-    <h2>a. Rendezetlen lista</h2>
+    <h3>a. Rendezetlen lista</h3>
     <ul>
         <li>piros</li>
         <li>kék</li>
         <li>sárga</li>
         <li>barna</li>
     </ul>
-    <ul style="color: blue;">
-        <li style="list-style: square;">sárga</li>
-        <li style="list-style: square;">fehér</li>
-        <li style="list-style: square;">zöld</li>
-        <li style="list-style: square;">kék</li>
+
+    <ul class="square">
+        <li style="color:blue">sárga</li>
+        <li style="color:blue;">fehér</li>
+        <li style="color:blue">zöld</li>
+        <li style="color:blue;">kék</li>
     </ul>
 
-    <h2>b. Rendezett lista</h2>
+    <h3>b. Rendezett lista</h3>
     <ol>
         <li>pink</li>
         <li>kék</li>
@@ -29,27 +86,60 @@
         <li>barna</li>
     </ol>
 
-    <h2>c. Nagybetűk</h2>
-    <ol type="A">
+    <h3>c. Nagybetűk</h3>
+    <ol class="uppercase">
         <li>pink</li>
         <li>kék</li>
         <li>sárga</li>
         <li>barna</li>
     </ol>
 
-    <h2>d. Római számok</h2>
-    <ol type="I">
+    <h3>d. Római számok</h3>
+    <ol class="roman">
         <li>I. ÉVF</li>
         <li>II. ÉVF</li>
         <li>III. ÉVF</li>
     </ol>
 
-    <h2>e. Inline style</h2>
-    <ol type="A" style="color: red;">
-        <li>sárga</li>
-        <li>kék</li>
-        <li>zöld</li>
-        <li>pink</li>
+    <h3>e. Inline style</h3>
+    <ol class="inline-style">
+        <li>A. Sárga</li>
+        <li>B. Kék</li>
+        <li>C. Zöld</li>
+        <li>D. Pink</li>
+    </ol>
+
+    <h3>f. HTML Description Lists</h3>
+    <dl class="description">
+        <dt>Farkas</dt>
+        <dd style="color: aqua;">Kutyaszerű ragadozó emlős</dd>
+        <dt>Fájl</dt>
+        <dd style="color: aqua;">Szöveges állomány</dd>
+        <dt>Oroszlán</dt>
+        <dd style="color: aqua;">Macskaszerű ragadozó emlős<br>Az állatok királya</dd>
+    </dl>
+
+    <h3>g. Embedded HTML lists</h3>
+    <div class="embedded">
+        <h3>Kedvenc reggeli italaim</h3>
+        <ul>
+            <li>Kávé</li>
+            <li>Tea
+                <ul>
+                    <li>Fekete</li>
+                    <li>Zöld</li>
+                </ul>
+            </li>
+            <li>Tej</li>
+        </ul>
+    </div>
+
+    <h3>h. Control List Counting</h3>
+    <ol start="5">
+        <li>KL</li>
+        <li>EL</li>
+        <li>BL</li>
     </ol>
 </body>
+
 </html>
