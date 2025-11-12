@@ -1,0 +1,31 @@
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIWXDX - Juhász Balázs FIWXDX_JSobjtoJsonstring</title>
+</head>
+
+<body>
+    <h1>JSON fájl készítése - JavaScript-ben</h1>
+    <h2>JSON:</h2>
+    <p id="write"></p>
+    <button onclick="reader()">JSON generálás</button>
+</body>
+
+<script>
+    function reader() {
+        const obj =
+            [
+                { name: "HTML5", extension: ".html" },
+                { name: "CSS3", extension: ".css" },
+                { name: "JavaScript", extension: ".js" }
+            ];
+
+        const myJSON = JSON.stringify(obj);
+
+        document.getElementById("write").innerHTML = myJSON;
+    }
+</script>
+
+</html>

@@ -1,0 +1,34 @@
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIWXDX - Juhász Balázs FIWXDX_JsonStringtJSobj</title>
+</head>
+
+<body>
+    <h1>JSON fájl feldolgozás, beolvasás - JavaScript-ben</h1>
+    <h2>JSON:</h2>
+    <p id="write"></p>
+    <button onclick="reader()">JSON beolvasás</button>
+</body>
+
+<script>
+    function reader() {
+        const text = '[{"name":"HTML5","extension":".html" },{"name":"CSS3","extension":".css" },{"name":"JavaScript","extension":".js"}]';
+
+        const obj = JSON.parse(text);
+
+        let i = 0;
+        let writeText = "";
+
+        while (i < 3) {
+            writeText = "Név: " + obj[i].name + ", kiterjesztés: " + obj[i].extension + "<br>";
+            i++;
+        }
+
+        document.getElementById("write").innerHTML = writeText;
+    }
+</script>
+
+</html>
