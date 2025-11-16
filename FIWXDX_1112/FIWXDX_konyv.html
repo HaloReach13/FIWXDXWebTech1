@@ -1,0 +1,32 @@
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIWXDX - Juhász Balázs FIWXDX_konyv</title>
+</head>
+
+<body>
+    <h1>JSON megvalósítása – JavaScript</h1>
+
+    <h2>Könyvek listája</h2>
+    <ul id="konyvLista"></ul>
+</body>
+
+<script>
+    fetch("FIWXDX_konyv.json")
+        .then(response => response.json())
+        .then(data => {
+            const lista = document.getElementById("konyvLista");
+            data.konyvek.konyv.forEach(k => {
+                const li = document.createElement("li");
+                li.innerHTML = `<strong>Szerző:</strong> ${k.iro} 
+                                    <strong>cím:</strong> ${k.cim} 
+                                    <strong>Kiadás éve:</strong> ${k.kiadas}`;
+                lista.appendChild(li);
+            });
+        })
+        .catch(error => console.error("Hiba a JSON betöltésekor:", error));
+</script>
+
+</html>

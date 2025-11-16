@@ -1,0 +1,28 @@
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIWXDX - Juhász Balázs FIWXDX_JsonstringtoJSobj1</title>
+</head>
+
+<body>
+    <h1>JSON String konvertálása JavaScript objektum</h1>
+    <div id="write"></div>
+</body>
+
+<script>
+    let fiwxdx =
+        '{"nev" : "Juhász Balázs","iranyitoSzam" : "3562","varos" : "Miskolc","egyetem" : "Miskolci Egyetem"}';
+
+    const obj = JSON.parse(fiwxdx);
+
+    let writeText = '<b>Név:</b> ' + obj.nev + '<br>' +
+        '<b>Irányítószám:</b> ' + obj.iranyitoSzam + '<br>' +
+        '<b>Város:</b> ' + obj.varos + '<br>' +
+        '<b>Egyetem:</b> ' + obj.egyetem + '<br>';
+
+    document.getElementById("write").innerHTML = writeText;
+</script>
+
+</html>

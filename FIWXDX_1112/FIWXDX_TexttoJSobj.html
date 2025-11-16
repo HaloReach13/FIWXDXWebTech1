@@ -1,9 +1,11 @@
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIWXDX - Juhász Balázs FIWXDX_TexttoJSobj</title>
 </head>
+
 <body>
     <h1>JSON Text konvertálása JavaScript objektummá!</h1>
     <div id="write"></div>
@@ -12,14 +14,18 @@
 
 <script>
     function reader() {
-        let fiwxdx = 
-        '{"nev" : "Juhász Balázs","iranyitoSzam" : "3562","varos" : "Miskolc","egyetem" : "Miskolci Egyetem"}';
+        let fiwxdx =
+            '{"nev" : "Juhász Balázs","iranyitoSzam" : "3562","varos" : "Miskolc","egyetem" : "Miskolci Egyetem"}';
 
         const obj = JSON.parse(fiwxdx);
 
-        let writeText = ''
+        let writeText = 'Név: ' + obj.nev + '<br>' +
+            'Irányítószám: ' + obj.iranyitoSzam + '<br>' +
+            'Város: ' + obj.varos + '<br>' +
+            'Egyetem: ' + obj.egyetem + '<br>';
 
-        document.getElementById("write").innerHTML =
+        document.getElementById("write").innerHTML = writeText;
     }
 </script>
+
 </html>
