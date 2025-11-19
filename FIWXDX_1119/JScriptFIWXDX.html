@@ -1,0 +1,40 @@
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIWXDX - Juhász Balázs FIWXDX_JScriptFIWXDX</title>
+</head>
+
+<body>
+    <h1>FIWXDX Órarend 2025</h1>
+    <button onclick="view()">Órarend betöltés</button>
+    <div id="output"></div>
+</body>
+
+<script>
+    function view() {
+        fetch("orarendFIWXDX.json")
+            .then(response => response.json())
+            .then(data => {
+                const out = document.getElementById("output");
+                let view = '';
+                data.FIWXDX_orarend.ora.forEach(x => {
+                    view += `<p>Tárgy: ${x.targy}</p>
+                                     <p>Időpont:</p>
+                                     <ul>
+                                        <li>${x.idopont.nap}</li>
+                                        <li>${x.idopont.tol}</li>
+                                        <li>${x.idopont.ig}</li>
+                                     </ul>
+                                     <p>Helyszín: ${x.helyszin}</p>
+                                     <p>Oktató: ${x.oktato}</p>
+                                     <p>Szak: ${x.szak}</p>
+                                     <br>`
+                })
+                out.innerHTML = view;
+            })
+    }
+</script>
+
+</html>
