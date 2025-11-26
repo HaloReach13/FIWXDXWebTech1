@@ -1,0 +1,62 @@
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIWXDX - Juhász Balázs FIWXDX_4</title>
+</head>
+<style>
+    .gomb-container {
+        display: flex;
+        justify-content: left;
+        gap: 10px;
+        margin: 20px 0;
+    }
+
+    .urlap {
+        background-color: rgb(168, 213, 255);
+        width: 320px;
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <h1>jQuery feladatok</h1>
+    <p class="bekezdes"><strong>A jQuery egy JavaScript programozói könyvtár, amelyet John Resig kezdett fejleszteni.</strong></p>
+    <p class="bekezdes">Elterjedtek tekinthető, segítségével könnyen bejárható egy HTML oldal DOM-ja.</p>
+    <p class="bekezdes">Effekteket és animációt adhatunk HMTML elemeinkhez. Számtalan plugint írtak hozzá.</p>
+    <div class="gomb-container">
+        <button id="elrejt-bekezdes"><strong>Elrejt</strong></button>
+        <button id="megjelenit-bekezdes"><strong>Megjelenít</strong></button>
+        <button id="kapcsol-bekezdes"><strong>Ki/Bekapcsol</strong></button>
+    </div>
+    <div class="urlap" id="urlap">
+        <h2>Űrlap</h2>
+        <label for="nev"><strong>Név:</strong></label>
+        <input type="text" id="nev">
+        <br><br>
+        <label for="email"><strong>Email:</strong></label>
+        <input type="email" id="email">
+        <br><br>
+        <label for="jelszo"><strong>Jelszó:</strong></label>
+        <input type="password" id="jelszo">
+        <br><br>
+        <button id="jelentkezes">Jelentkezés</button>
+    </div>
+    <div class="gomb-container">
+        <button id="atlatszosag-01"><strong>Áttetszőség = 0.1</strong></button>
+        <button id="atlatszosag-05"><strong>Áttetszőség = 0.5</strong></button>
+        <button id="atlatszosag-08"><strong>Áttetszőség = 0.8</strong></button>
+    </div>
+
+    <div class="gomb-container">
+        <button id="elrejt-urlap"><strong>Elrejt</strong></button>
+        <button id="megjelenit-urlap"><strong>Megjelenít</strong></button>
+        <button id="kapcsol-urlap"><strong>Elrejt/Megjelenít</strong></button>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="4.js"></script>
+
+</html>
