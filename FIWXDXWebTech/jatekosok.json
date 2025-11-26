@@ -1,0 +1,124 @@
+{
+  "jatekosok": [
+    {
+      "kep": "../Kepek/Jatekosok/luke_littler.jpg",
+      "nev": "Luke Littler",
+      "orszag": "Anglia",
+      "szuletesi_ev": 2007,
+      "vilagranglista_helyezes": 1,
+      "főbb_cimek": [
+        "PDC World Darts Championship döntős (2024)",
+        "Bahrain Darts Masters győztes (2024)",
+        "Premier League Darts győztes (2024)"
+      ]
+    },
+    {
+      "kep": "../Kepek/Jatekosok/luke_humphries.jpg",
+      "nev": "Luke Humphries",
+      "orszag": "Anglia",
+      "szuletesi_ev": 1995,
+      "vilagranglista_helyezes": 2,
+      "főbb_cimek": [
+        "PDC World Darts Champion (2024)",
+        "World Grand Prix győztes (2023)",
+        "Players Championship Finals győztes (2023)"
+      ]
+    },
+    {
+      "kep": "../Kepek/Jatekosok/michael_van_gerwen.jpg",
+      "nev": "Michael van Gerwen",
+      "orszag": "Hollandia",
+      "szuletesi_ev": 1989,
+      "vilagranglista_helyezes": 3,
+      "főbb_cimek": [
+        "PDC World Darts Champion (2014, 2017, 2019)",
+        "Premier League Darts győztes (2013, 2016, 2017, 2018, 2019, 2022)",
+        "World Matchplay győztes (2015, 2016, 2022)"
+      ]
+    },
+    {
+      "kep": "../Kepek/Jatekosok/stephen_bunting.jpg",
+      "nev": "Stephen Bunting",
+      "orszag": "Anglia",
+      "szuletesi_ev": 1985,
+      "vilagranglista_helyezes": 4,
+      "főbb_cimek": [
+        "BDO World Darts Champion (2014)",
+        "World Masters győztes (2011)",
+        "Zuiderduin Masters győztes (2013)"
+      ]
+    },
+    {
+      "kep": "../Kepek/Jatekosok/jonny_clayton.jpg",
+      "nev": "Jonny Clayton",
+      "orszag": "Wales",
+      "szuletesi_ev": 1974,
+      "vilagranglista_helyezes": 5,
+      "főbb_cimek": [
+        "Premier League Darts győztes (2021)",
+        "World Cup of Darts győztes (2020, 2023)",
+        "Masters győztes (2021)"
+      ]
+    },
+    {
+      "kep": "../Kepek/Jatekosok/james_wade.jpg",
+      "nev": "James Wade",
+      "orszag": "Anglia",
+      "szuletesi_ev": 1983,
+      "vilagranglista_helyezes": 6,
+      "főbb_cimek": [
+        "World Matchplay győztes (2007)",
+        "World Grand Prix győztes (2007, 2010, 2011)",
+        "UK Open győztes (2008, 2011, 2021)"
+      ]
+    },
+    {
+      "kep": "../Kepek/Jatekosok/danny_noppert.jpg",
+      "nev": "Danny Noppert",
+      "orszag": "Hollandia",
+      "szuletesi_ev": 1990,
+      "vilagranglista_helyezes": 7,
+      "főbb_cimek": [
+        "UK Open győztes (2022)",
+        "World Masters győztes (2017)",
+        "World Championship negyeddöntős (2022)"
+      ]
+    },
+    {
+      "kep": "../Kepek/Jatekosok/gian_van_veen.jpg",
+      "nev": "Gian Van Veen",
+      "orszag": "Hollandia",
+      "szuletesi_ev": 2001,
+      "vilagranglista_helyezes": 8,
+      "főbb_cimek": [
+        "World Youth Championship döntős (2023)",
+        "Development Tour győztes",
+        "Challenge Tour győztes"
+      ]
+    },
+    {
+      "kep": "../Kepek/Jatekosok/chris_dobey.jpg",
+      "nev": "Chris Dobey",
+      "orszag": "Anglia",
+      "szuletesi_ev": 1990,
+      "vilagranglista_helyezes": 9,
+      "főbb_cimek": [
+        "Masters győztes (2023)",
+        "World Championship negyeddöntős (2023)",
+        "Players Championship győztes"
+      ]
+    },
+    {
+      "kep": "../Kepek/Jatekosok/gerwyn_price.jpg",
+      "nev": "Gerwyn Price",
+      "orszag": "Wales",
+      "szuletesi_ev": 1985,
+      "vilagranglista_helyezes": 10,
+      "főbb_cimek": [
+        "PDC World Darts Champion (2021)",
+        "World Grand Prix győztes (2020, 2021)",
+        "World Cup of Darts győztes (2020, 2023)"
+      ]
+    }
+  ]
+}

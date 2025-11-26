@@ -1,0 +1,37 @@
+- Készítsen egy témakör kiválasztása után egy
+  HTML weboldalt. A HTML5 szerkezete tartalmazza a következő elemeket (article, section,
+  aside, nav, header, footer) – részletek.
+
+- HTML
+    • Legalább öt HTML fájl legyen.
+    • HTML5 szerkezet megtervezése (kép - oldal tetején, menü stb).
+    • HTML elemek: div, span, p, címsorok, képek, táblázat, linkek, html5 elemei stb.
+    • Űrlap elemek: szöveges beviteli mező: egy, több soros, adatlista, jelölőnégyzet,
+    rádiógomb, színválasztó, dátumválasztás, gombok, számozott lista.
+    • Video: az adott témakörhöz tartozó rövid video elkészítése, egyes gombok vezérlése
+    JavaScript kóddal. 
+
+- CSS
+    • style attribútumban néhány elem formázása,
+    • azonosító alapján formázást,
+    • osztály alapján formázást,
+    • táblázat formázása,
+    • menü kialakítása,
+    • háttérszín,
+    • linkek formázása,
+    • űrlap elemek, gombok formázása,
+    • egy vagy több .CSS fájlban is legyen formázás, és a html-ben a <style> tag-ben is.
+
+- JavaScript, jQuery, JSON, AJAX
+    • form ellenőrzés, hiba esetén az egyes űrlap elemeknél kiírja, hogy mi a hiba, css-t állít
+    pl. piros keret, ha hibás az adott űrlap elem,
+    • jQuery animáció,
+    • elemek kiválasztása: html tag név alapján, osztály alapján, azonosító (id) alapján stb.
+    • új html elem készítése, meglévő html elem módosítása.
+    • egy fájl elkészítése JSON formátumba (beágyazott).
+    • JavaScript, jQuery – AJAX metódus használatával JSON fájl megjelenítése a
+    weboldalon.
+
+- Webszerver
+    • A XAMPP webszerver letöltése, telepítése. Munkakönyvtár készítése: NeptunkodWebtech.
+    A projekt megjelenítése a helyi szerveren (localhost:8080)

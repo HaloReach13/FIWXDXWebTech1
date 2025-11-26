@@ -1,0 +1,136 @@
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/urlap.css">
+    <link rel="icon" type="image/x-icon" href="../Kepek/logo.png">
+    <title>Űrlap</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="../Kepek/logo.png" alt="Darts Logo">
+        <h1>Darts Weboldal</h1>
+        <h3>A legjobb hely a darts szerelmeseinek!</h3>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Fooldal.html">Főoldal</a></li>
+            <li><a href="Hirek.html">Hírek</a></li>
+            <li><a href="Tortenet.html">Történelem</a></li>
+            <li><a href="Jatekosok.html">Játékosok</a></li>
+            <li><a href="Urlap.html">Űrlap</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="regisztracio">
+            <h2>Űrlap kitöltés</h2>
+            <form id="reg-form">
+                <div class="form-group">
+                    <label for="nev">Teljes név:</label>
+                    <input type="text" id="nev" name="nev">
+                    <div class="error-message" id="nev-error"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail cím:</label>
+                    <input type="email" id="email" name="email">
+                    <div class="error-message" id="email-error"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="szuletesi-datum">Születési dátum:</label>
+                    <input type="date" id="szuletesi-datum" name="szuletesi-datum">
+                    <div class="error-message" id="datum-error"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="nem">Nem:</label>
+                    <div>
+                        <input type="radio" id="ferfi" name="nem" value="ferfi">
+                        <label for="ferfi" style="display: inline;">Férfi</label>
+
+                        <input type="radio" id="no" name="nem" value="no">
+                        <label for="no" style="display: inline;">Nő</label>
+                    </div>
+                    <div class="error-message" id="nem-error"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="darts-tapasztalat">Darts tapasztalat:</label>
+                    <select id="darts-tapasztalat" name="darts-tapasztalat">
+                        <option value="">Válassz szintet</option>
+                        <option value="kezdo">Kezdő (0-1 év)</option>
+                        <option value="halado">Haladó (1-3 év)</option>
+                        <option value="versenyzo">Versenyző (3+ év)</option>
+                        <option value="profi">Profi</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="jatek-stilus">Játékstílus:</label>
+                    <select id="jatek-stilus" name="jatek-stilus">
+                        <option value="">Milyen játékot szeretsz?</option>
+                        <option value="501">501 - Klasszikus</option>
+                        <option value="cricket">Cricket - Stratégiai</option>
+                        <option value="around">Around the Clock - Gyakorlás</option>
+                        <option value="mind">Mindegyik</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="jatszott-helyszin">Szokásos játéklhelyszín:</label>
+                    <select id="jatszott-helyszin" name="jatszott-helyszin">
+                        <option value="">Hol szoktál játszani?</option>
+                        <option value="otthon">Otthon</option>
+                        <option value="pub">Pub/Bar</option>
+                        <option value="klub">Darts klub</option>
+                        <option value="verseny">Versenyhelyszín</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="megjegyzes">Megjegyzések:</label>
+                    <textarea id="megjegyzes" name="megjegyzes" rows="4"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" id="adatvedelem" name="adatvedelem">
+                    <label for="adatvedelem" style="display: inline;">Elfogadom az adatvédelmi szabályzatot</label>
+                    <div class="error-message" id="adatvedelem-error"></div>
+                </div>
+
+                <button type="submit">Befejezés</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Darts Weboldal</p>
+    </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../JS/urlap.js"></script>
+<script src="../JS/animacio.js"></script>
+
+</html>

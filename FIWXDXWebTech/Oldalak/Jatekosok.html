@@ -1,0 +1,62 @@
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/jatekosok.css">
+    <link rel="icon" type="image/x-icon" href="../Kepek/logo.png">
+    <title>Játékosok</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="../Kepek/logo.png" alt="Darts Logo">
+        <h1>Darts Weboldal</h1>
+        <h3>A legjobb hely a darts szerelmeseinek!</h3>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Fooldal.html">Főoldal</a></li>
+            <li><a href="Hirek.html">Hírek</a></li>
+            <li><a href="Tortenet.html">Történelem</a></li>
+            <li><a href="Jatekosok.html">Játékosok</a></li>
+            <li><a href="Urlap.html">Űrlap</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="jatekosok-section">
+            <h2>Legjobb Játékosok</h2>
+            <div id="jatekosok-container">
+                <p class="loading">Játékosok betöltése...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Darts Weboldal</p>
+    </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../JS/jatekosok.js"></script>
+<script src="../JS/animacio.js"></script>
+
+</html>
