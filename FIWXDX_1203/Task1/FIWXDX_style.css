@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.box {
+    background-color: rgba(190, 197, 232);
+    width: 17rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-style {
+    font-weight: bold;
+}
